@@ -32,7 +32,7 @@ function setup() {
 	rope3=new rope(bobObject3.body,roofObject.body,0, 0)
 	rope4=new rope(bobObject4.body,roofObject.body,40, 0)
 	rope5=new rope(bobObject5.body,roofObject.body,80, 0)
-	
+	console.log("hello")
 	
 	Engine.run(engine);
 	
